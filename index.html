@@ -1,104 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Corazón de palabras</title>
-   <style>
-      body {
-         background-color: #0b1522;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         height: 100vh;
-         margin: 0;
-         font-family: Arial, sans-serif;
-         overflow: hidden;
-      }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceGamer - Noticias</title>
+    <link rel="shortcut icon" href="../IMG/GAME.png" />
+    <link rel="stylesheet" href="../CSS/diseño.css">
 
-      .container {
-         position: relative;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-wrap: wrap;
-         width: 90vw;
-         height: 90vw;
-         max-width: 400px;
-         max-height: 400px;
-      }
-
-      p {
-         color: red;
-         text-shadow: 0 0 10px #f20044, 0 0 20px #f20044;
-         animation: latiendo 0.6s linear infinite;
-         margin: 0;
-         font-size: 1em;
-         position: absolute;
-      }
-
-      @keyframes latiendo {
-         0% { transform: scale(1.4); }
-         80% { transform: scale(2); }
-      }
-
-      .amor {
-         font-size: 1.5em;
-         top: 50%;
-         left: 50%;
-         transform: translate(-50%, -50%);
-      }
-
-      .primera { top: 20%; left: 30%; }
-      .segunda { top: 25%; left: 40%; }
-      .tercera { top: 30%; left: 50%; }
-      .cuarta { top: 35%; left: 60%; }
-      .quinta { top: 40%; left: 70%; }
-      .sexta { top: 45%; left: 65%; }
-      .septima { top: 50%; left: 60%; }
-      .octava { top: 55%; left: 50%; }
-      .novena { top: 60%; left: 40%; }
-      .decima { top: 65%; left: 30%; }
-      .decima1 { top: 70%; left: 35%; }
-      .decima2 { top: 75%; left: 45%; }
-      .decima3 { top: 80%; left: 55%; }
-      .decima4 { top: 85%; left: 50%; }
-      .decima5 { top: 90%; left: 40%; }
-      .vigesima { top: 50%; left: 25%; }
-      .vigesima1 { top: 55%; left: 20%; }
-      .vigesima2 { top: 60%; left: 15%; }
-      .vigesima3 { top: 65%; left: 20%; }
-      .vigesima4 { top: 70%; left: 25%; }
-      .vigesima5 { top: 75%; left: 30%; }
-      .vigesima6 { top: 80%; left: 35%; }
-   </style>
 </head>
 <body>
-   <div class="container">
-      <p class="amor">Te Quiero Zaira</p>
-      <p class="primera">AMOR</p>
-      <p class="segunda">AMO</p>
-      <p class="tercera">Zaira</p>
-      <p class="cuarta">Zaira</p>
-      <p class="quinta">Zaira</p>
-      <p class="sexta">Zaira</p>
-      <p class="septima">Zaira</p>
-      <p class="octava">Zaira</p>
-      <p class="novena">amor</p>
-      <p class="decima">eterno</p>
-      <p class="decima1">Zaira</p>
-      <p class="decima2">Zaira</p>
-      <p class="decima3">Zaira</p>
-      <p class="decima4">vida</p>
-      <p class="decima5">Feliz</p>
-      <p class="vigesima">AMOR</p>
-      <p class="vigesima1">vida</p>
-      <p class="vigesima2">Feliz</p>
-      <p class="vigesima3">Feliz</p>
-      <p class="vigesima4">Feliz</p>
-      <p class="vigesima5">Feliz</p>
-      <p class="vigesima6">Feliz</p>
-   </div>
+    <header>
+        <div class="logo"><a href="../HTML/INDEX2.html#">SpaceGam<span>e</span>r</a></div>
+        <nav>
+            <ul>
+                <li><a href="#">NOTICIAS</a></li>
+                <li><a href="#">ARTÍCULOS</a></li>
+                <li><a href="#">ANÁLISIS</a></li>
+                <li><a href="#">GUÍAS</a></li>
+                <li><a href="#">OFERTAS</a></li>
+                <li><a href="#">FORO</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="noticias">
+            <h2>SpaceGamer</h2>
+            <article>
+                <img src="../IMG/miku.jpg" alt="Hatsune Miku en Fornite">
+                <div>
+                    <h3><a href="#noticia1">Ya está disponible Hatsune Miku en Fortnite</a></h3>
+                    <p>Por <strong>Pedro Toquer</strong> - Hace 1 hora</p>
+                </div>
+            </article>
+            <article>
+                <img src="../IMG/NINTENDO.jpg" alt="Nintendo Switch 2">
+                <div>
+                    <h3><a href="#noticia2">La Nueva y Reluciente Nintendo Switch 2</a></h3>
+                    <p>Por <strong>Pedro Toquer</strong> - Hace 2 horas</p>
+                </div>
+            </article>
+            <article>
+                <img src="../IMG/metalgear.jpg" alt="Metal Gear">
+                <div>
+                    <h3><a href="#noticia3">Sony filtra fecha y nuevo tráiler de Metal Gear Solid: Snake Eater en la Store de PlayStation</a></h3>
+                    <p>Por <strong>Pedro Toquer</strong> - Hace 2 horas</p>
+                </div>
+            </article>
+            <article>
+                <img src="../IMG/Forza.jpg" alt="Forza Horizon 5">
+                <div>
+                    <h3><a href="#noticia4">Forza Horizon 5 Llega A PS5: Así Es Este Videojuego</a></h3>
+                    <p>Por <strong>Pedro Toquer</strong> - Hace 2 horas</p>
+                </div>
+            </article>
+        </section>
+        
+        <aside class="sidebar">
+            <h3>#parati</h3>
+            <ul>
+                <li><a href="#">Estos 14 juegos no parecen ser compatibles con Nintendo Switch 2</a></li>
+                <li><a href="#">Rumor: Un nuevo Metroid 2D se lanzará en 2025</a></li>
+                <li><a href="#">Analistas suben la predicción de ventas de Nintendo Switch 2 en su primer año</a></li>
+            </ul>
+        </aside>
+    </main>
 </body>
 </html>
